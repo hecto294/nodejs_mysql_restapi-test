@@ -1,0 +1,21 @@
+{
+  "name": "hectorsana_3228973a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "routes/scr/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon routes/scr/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.20.0",
+    "nodemon": "^3.1.14"
+  }
+}
