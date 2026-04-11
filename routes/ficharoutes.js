@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getfichas, createficha, updateficha, deleteficha,getficha } from "../routes/src/controllers/fichas.controller.js";
+import { getfichas, createficha, updateficha, deleteficha,getficha } from "./src/controllers/fichas.controller.js";
 
 const router = Router()
 
