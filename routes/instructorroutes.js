@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getinstructores, createinstructor, updateinstructor, deleteinstructor } from "../routes/scr/controllers/instructor.controller.js";
+import { getinstructores, createinstructor, updateinstructor, deleteinstructor } from "../routes/src/controllers/instructor.controller.js";
 const router = Router()
 router.get('/instructor', getinstructores)
 router.post('/instructor', createinstructor)
